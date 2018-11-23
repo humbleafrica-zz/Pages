@@ -29,3 +29,6 @@ the following turtorials were referenced:
 
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 https://developers.google.com/maps/documentation/javascript/importing_data
+
+link for project is https://ifed-milestone-project-humbleafrika.c9users.io/
+link for github page https://github.com/humbleafrica/Pages
