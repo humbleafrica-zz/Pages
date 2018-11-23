@@ -16,9 +16,10 @@
 <body>
     <h1>Search Destinations, Attractions, Accommodation and More ! Right Here</h1>
     <div id="pac-container">
-        
+
         <div>
-            <input id="pac-input" type="text" placeholder="Enter a location"><div id="type-selector" class="pac-controls">
+            <input id="pac-input" type="text" placeholder="Enter a location">
+            <div id="type-selector" class="pac-controls">
                 <input type="radio" name="type" id="changetype-all" checked="checked">
                 <label for="changetype-all">All</label>
 
@@ -35,6 +36,10 @@
                 <input type="checkbox" id="use-strict-bounds" value="">
                 <label for="use-strict-bounds">Strict Bounds</label>
             </div>
+            <div id="reset" class="pac-controls">
+                <input type="button" id="resetbtn" value="Reset" onclick="reset();">
+            </div>
+
         </div>
 
     </div>
