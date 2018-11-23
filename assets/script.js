@@ -1,35 +1,4 @@
-/*function initMap() {
-    //location of UK
-    var UK = { lat: 55.3781, lng: 3.4360 };
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
-        center: UK,
-        zoomControl: true, //allow user to control zoom
-        mapTypeControl: true, //allow user to control map type
-        scaleControl: true, //allow user to control scale size
-        streetViewControl: true, //allow user to control street view
-        rotateControl: false, //disallow user to control screen rotation
-        fullscreenControl: true //allow fullscreen control
 
-    });
-
-    var defaultBounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(55.3781, 3.4360),
-        new google.maps.LatLng(55.2781, 3.3360));
-
-    var input = document.getElementById('searchTextField');
-    var options = {
-        types: ['(cities)'],
-        componentRestrictions: { country: 'uk' }
-    };
-
-    autocomplete = new google.maps.places.Autocomplete(input, options);
-
-    autocomplete = new google.maps.places.Autocomplete(input, options);
-    autocomplete.bindTo('bounds', map);
-    autocomplete.setOptions({ strictBounds: true })
-}
-*/
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 7, lng: 0.0 },
