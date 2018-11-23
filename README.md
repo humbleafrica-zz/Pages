@@ -23,4 +23,9 @@ The criteria of the project is shown below:
 3. Provide search results in a manner that is visually appealing for your user (by drawing on the skills you have learned in User-Centric Frontend Development)
 
 
+I will start by visiting the google places web page and looking at existing examples and making changes to suit my needs, there will be some copy and pasting before modification
 
+the following turtorials were referenced:
+
+https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+https://developers.google.com/maps/documentation/javascript/importing_data
