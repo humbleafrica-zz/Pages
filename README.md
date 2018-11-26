@@ -5,10 +5,11 @@
      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
     ----------------------------------------------------------------- 
 
+Interactive Front End Development Milestone Project (IFEDMP)
 
-Hi there! Welcome to my code institute Interactive Front End Development Milestone Project (IFEDMP)
+Hi there! Welcome to my code institute IFEDMP
 
-In this project I will be choosing the first option in the examples brief and creating a single page Google API based website.
+In this project I have choosen the option to create a single page Google Maps API based website.
 
 The criteria of the project is shown below:
 
@@ -23,12 +24,65 @@ The criteria of the project is shown below:
 3. Provide search results in a manner that is visually appealing for your user (by drawing on the skills you have learned in User-Centric Frontend Development)
 
 
-I will start by visiting the google places web page and looking at existing examples and making changes to suit my needs, there will be some copy and pasting before modification
+I am building the page specifically aim at people who may be visiting my home country of Ghana and would want to search for restaurants to dine in.
+
+My webpage offers the ability to search for destinations, attractions, accomodation and many others from the provided interface. 
+The interface has anumber of selections that can be used to determine the search results. I added an extra button to offer another service but 
+deemed it as an extra clutter so I blanked out the html code so it doesnt show on the interface.
+
+Features:
+
+    A search bar with a place holder and an autocomplete field - This text box makes use of the Google Maps and Places APIs autocomplet feaures. The instruction
+    to interact in through a place holder to keep the design simple, tidy but effective.
+
+    The second feature of my page is the number of radio buttons - The options to choose between four states of results rendering worldwide.
+
+    The third feature is the used of a checkbox - The checkbox focuses users search within the viewport area. 
+    In this case it would search for locations in the southern parts of Ghana, Ivory Cost, Togo, Benin and southwest Nigeria.
+
+    The final feature of the page is the Reset button - The reset button allows the user to clear the textbox, uncheck the checkbox and return the rendering option
+    to the 'All' radio button.
+
+
+Features Left to Implement
+
+    I thought it to be a good idea to have the user enter a near location when not wanting to use location services. However I felt the option already existed in the API
+    and therefore appeared as if reinventing the wheel
+
+Technologies Used
+
+    I used a little of what I know as a coder and a little of what I have learnt since joining the code institute. The coding technologies used in the project are HTML5, CSS3 
+    and Javascript.
+    
+    The HTML5 was used for the structuring. 
+    No inline CSS was sued so a separate CSS file was created for the styling and
+    Javascript is used to manipulate the Maps interface.
+
+Testing
+    
+    Not a lot of testing was required in this project as most of the code came from credible external . Nonetheless the extra added features were tested and inspected to ensure
+    there were no errors appearing when actions were taken.
+    
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+The page also works on all device types without difficulties. This capability was tested within Firefox's Developers Edition browser's virtual device renderer.
+
+I visited the google places webpage, looked at existing examples and made changes to suit my needs, there were some copy and pasting before modification
 
 the following turtorials were referenced:
 
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 https://developers.google.com/maps/documentation/javascript/importing_data
 
+
 link for project is https://ifed-milestone-project-humbleafrika.c9users.io/
 link for github page https://github.com/humbleafrica/Pages
+
+I wanted to add an option for users to enter A near by destination but the prompt request for the entrt wasn't working.
+
+I believe this project satisfies the conditions of the guidelines and therefore is presentable

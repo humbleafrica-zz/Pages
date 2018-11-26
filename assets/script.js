@@ -1,3 +1,51 @@
+//OWN FUNCTIONS
+
+//reset function
+function reset() {
+    var center = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 7, lng: 0.0 },
+        zoom: 8
+    });
+
+    document.getElementById('pac-input').value = '';
+    document.getElementById('use-strict-bounds').checked = false;
+    document.getElementById('changetype-all').checked = true;
+    document.getElementById('map').center;
+}
+
+
+/*
+//this location function
+function thisloc() {
+    //request access to location
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+            map.setCenter(initialLocation);
+        });
+    }
+
+    //error msg if any
+    if (navigator.geolocation) {
+
+    }
+    else {
+        alert('Sorry your browser doesn\'t support the Geolocation API');
+    }
+
+    var initialLocation = navigator.geolocation;
+    var center = new google.maps.Map(document.getElementById('map'), {
+        center: initialLocation,
+        zoom: 1
+    });
+
+    document.getElementById('pac-input').value = '';
+    document.getElementById('map').setCenter(initialLocation);
+
+}
+
+*/
+//COPIED AND MODIFIED FUNCTIONS 
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 7, lng: 0.0 },
@@ -85,14 +133,4 @@ function initMap() {
             console.log('Checkbox clicked! New state=' + this.checked);
             autocomplete.setOptions({ strictBounds: this.checked });
         });
-}
-
-function reset(){
-    var center = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: 7, lng: 0.0 },
-        zoom: 8
-    });
-    
-    document.getElementById('pac-input').value ='';
-    document.getElementById('map').center;
 }
